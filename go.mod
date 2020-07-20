@@ -5,13 +5,14 @@ module k8s.io/kube-controller-manager
 go 1.13
 
 require (
-	k8s.io/apimachinery v0.0.0-20200713125710-cc2fa4f57325
-	k8s.io/component-base v0.0.0-20200713132432-e98e6e533eb1
+	k8s.io/apimachinery v0.0.0
+	k8s.io/component-base v0.0.0
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20200716171716-e4973e079a11
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200713125710-cc2fa4f57325
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200713130842-319dbfd0ed29
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200713132432-e98e6e533eb1
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
+	k8s.io/kube-controller-manager => ../kube-controller-manager
 )
