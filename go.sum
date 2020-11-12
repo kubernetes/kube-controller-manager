@@ -571,7 +571,7 @@ k8s.io/api v0.0.0-20201112122247-88ad409c1fcc/go.mod h1:kdpOjtJg1fLz8kIoeBe0Ohm3
 k8s.io/apimachinery v0.0.0-20201112162105-000b5f4f8623/go.mod h1:C4HVOTZCaKwcNDaxwQoXe3Zk6BLT5jNivqfdcniEtuY=
 k8s.io/apiserver v0.0.0-20201112203353-7490b8bcb0d4/go.mod h1:qNm5TuBEI/LE0Ip+jHpZ98ETEJx67wvZ+muLdl6gRYE=
 k8s.io/client-go v0.0.0-20201112202528-30548acd0a9e/go.mod h1:KkY4/tSKSJeHkCItTqOpUcLiN4HNZDViOeW+hKwhU3k=
-k8s.io/cloud-provider v0.0.0-20201112205001-98481d6613cd/go.mod h1:qHpUHTbyWEpfvviQNrXemJMVNsvGC/BsLgJsXyY7AqY=
+k8s.io/cloud-provider v0.0.0-20201112205004-84729526206b/go.mod h1:qHpUHTbyWEpfvviQNrXemJMVNsvGC/BsLgJsXyY7AqY=
 k8s.io/component-base v0.0.0-20201112203007-ae492f5f42a5/go.mod h1:14mkjKSFTAbv3VSE9yKVLJQUMKinZk2qxnjlvD6D4AE=
 k8s.io/controller-manager v0.0.0-20201112204858-db8302bd10e3/go.mod h1:XLZR9Ff9Jjh0WS5sAaer8WSaLxnY3VsjOEb7bsMzOvI=
 k8s.io/gengo v0.0.0-20200413195148-3a45101e95ac/go.mod h1:ezvh/TsK7cY6rbqRK0oQQ8IAqLxYwwyPxAX1Pzy0ii0=
