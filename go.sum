@@ -603,7 +603,7 @@ k8s.io/apiserver v0.0.0-20210313032134-0eb3da2e7ac5/go.mod h1:ptWyiOo6aPQUxwUTAC
 k8s.io/client-go v0.0.0-20210329112528-6be0785e0e32/go.mod h1:yj5ScWeltrJYKEZW5QJU0u5fFsd8R5Pr3n4PemFPttM=
 k8s.io/cloud-provider v0.0.0-20210329120436-e1a9cf78cc01 h1:jfYqrbOsbV9uxGiKGP5ilZdRwhu+i7e48CqVs9zAXBc=
 k8s.io/cloud-provider v0.0.0-20210329120436-e1a9cf78cc01/go.mod h1:Ceu0jj7hn/Zcx20TfJlGy09uZ2xn4ZwOclVee9nsr50=
-k8s.io/component-base v0.0.0-20210313031516-9f42c8df41b0 h1:QrJmlJGqgVRsjKCqoKgG49I2i9CMQbBRn7jI4JWfr7I=
+k8s.io/component-base v0.0.0-20210313031516-9f42c8df41b0 h1:w4ki8L+OEXufvXGCiV2qGPjI7wP8nMfbhGmsOQV0l3w=
 k8s.io/component-base v0.0.0-20210313031516-9f42c8df41b0/go.mod h1:xbfn3fkC6RSVPe1kpuRzmIvpCcq7C7TWSACOY1TfJZA=
 k8s.io/controller-manager v0.0.0-20210329120239-80d55f30cc03 h1:cGlTVQrAE1D7vTyDvRtZK9zW8pnRzyO9ycgAhaAHRi8=
 k8s.io/controller-manager v0.0.0-20210329120239-80d55f30cc03/go.mod h1:HTkhUX0x/dxec9DZCL8ngsDbIe0l6BYPldcRhDscAU4=
