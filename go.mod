@@ -5,17 +5,17 @@ module k8s.io/kube-controller-manager
 go 1.16
 
 require (
-	k8s.io/apimachinery v0.0.0-20210521230914-1a7b32ce3b15
-	k8s.io/cloud-provider v0.0.0-20210602162619-5a689886649a
-	k8s.io/controller-manager v0.0.0-20210602162432-6e829b4f9210
+	k8s.io/apimachinery v0.21.2
+	k8s.io/cloud-provider v0.21.2
+	k8s.io/controller-manager v0.21.2
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210521231242-b96220531b73
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210521230914-1a7b32ce3b15
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20210602160219-3a4a25a304ff
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210521231753-ffd8cfc5638d
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20210602162619-5a689886649a
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20210521232436-2aef4dc4494b
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20210602162432-6e829b4f9210
+	k8s.io/api => k8s.io/api v0.21.2
+	k8s.io/apimachinery => k8s.io/apimachinery v0.21.2
+	k8s.io/apiserver => k8s.io/apiserver v0.21.2
+	k8s.io/client-go => k8s.io/client-go v0.21.2
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.21.2
+	k8s.io/component-base => k8s.io/component-base v0.21.2
+	k8s.io/controller-manager => k8s.io/controller-manager v0.21.2
 )
