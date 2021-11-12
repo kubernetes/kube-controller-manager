@@ -859,10 +859,11 @@ k8s.io/apimachinery v0.0.0-20211111072039-19377c9f105d h1:rhNn3FjXMzfNpZLAQSrkW0
 k8s.io/apimachinery v0.0.0-20211111072039-19377c9f105d/go.mod h1:/fTTuFZJpMy6M4dc6F6QbWWj88D/Yd/ZdqJMvTIcbkE=
 k8s.io/apiserver v0.0.0-20211111080511-c77fd9d4c5e5/go.mod h1:leXcBYnhDe33k6jd7oTpD8XdALX8wr2f4XqufPOhaIo=
 k8s.io/client-go v0.0.0-20211111073227-e627be7959e7/go.mod h1:vbhSM158IevUkKoqIxagoDYdB9XfHacEyDtKBlug+3g=
-k8s.io/cloud-provider v0.0.0-20211111085911-e9769fe0e441 h1:2yJei1rPcOxCjhjI86JinyXj3m9XIbhPkcjF/wiO/gU=
-k8s.io/cloud-provider v0.0.0-20211111085911-e9769fe0e441/go.mod h1:3R+K0fZLhK14paC3ryytiBuWWQ53dW1YVK/FPkyCfPE=
+k8s.io/cloud-provider v0.0.0-20211112204337-06a849b6847a h1:ZqW1X774ZeDrrF5VXEj9696sY48IB9Mx/HpeCgeSsW8=
+k8s.io/cloud-provider v0.0.0-20211112204337-06a849b6847a/go.mod h1:2HVcSAm3CiQcy7vIWHjPuubf0C173+6BEG7A8KzYk6o=
 k8s.io/component-base v0.0.0-20211111075655-ae7620c245bc h1:KzQZPIniySd4WlVRJ2XOo71Dlagq4hwDAlr5SIgMpwg=
 k8s.io/component-base v0.0.0-20211111075655-ae7620c245bc/go.mod h1:1FNCGI8+JFGNYTnOJidyT0C6gBaT3hZp0P5Nv/9NKr8=
+k8s.io/component-helpers v0.0.0-20211112155227-f6f6db02ccda/go.mod h1:l09fxADyldPge7DGxb+fkLNcs3yj0OR9w/NVY76ejB8=
 k8s.io/controller-manager v0.0.0-20211111085626-0738e414f11e h1:d8hUQQfd9Y0cikTed6zo3YpV5XQwg7rtI1HrvWZ3meE=
 k8s.io/controller-manager v0.0.0-20211111085626-0738e414f11e/go.mod h1:Liv0M0hksAQRMvU8Afn6jDeCXpkfQUZfFmCF2lQHnZw=
 k8s.io/gengo v0.0.0-20210813121822-485abfe95c7c/go.mod h1:FiNAH4ZV3gBg2Kwh89tzAEV2be7d5xI0vBa/VySYy3E=
