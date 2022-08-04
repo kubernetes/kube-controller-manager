@@ -5,9 +5,9 @@ module k8s.io/kube-controller-manager
 go 1.18
 
 require (
-	k8s.io/apimachinery v0.0.0-20220802201132-b5410464b8fe
-	k8s.io/cloud-provider v0.0.0-20220802204505-70b85b43ee2b
-	k8s.io/controller-manager v0.0.0-20220802204358-a95f0b65f3b0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/controller-manager v0.0.0
 )
 
 require (
@@ -17,11 +17,11 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
 	golang.org/x/text v0.3.7 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20220802202220-e13ba0c426f7 // indirect
+	k8s.io/component-base v0.0.0 // indirect
 	k8s.io/klog/v2 v2.70.1 // indirect
 	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
@@ -29,12 +29,18 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20220802201338-d351ecda57ef
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20220802201132-b5410464b8fe
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20220802202716-12d4e067fc94
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20220802201639-68639ba114e2
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20220802204505-70b85b43ee2b
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20220802202220-e13ba0c426f7
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20220802202319-d9d08136a832
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20220802204358-a95f0b65f3b0
+	github.com/yuin/goldmark => github.com/yuin/goldmark v1.4.1
+	golang.org/x/mod => golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3
+	golang.org/x/net => golang.org/x/net v0.0.0-20220225172249-27dd8689420f
+	golang.org/x/sync => golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sys => golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kube-controller-manager => ../kube-controller-manager
 )
