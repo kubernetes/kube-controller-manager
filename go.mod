@@ -5,9 +5,9 @@ module k8s.io/kube-controller-manager
 go 1.19
 
 require (
-	k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/cloud-provider v0.0.0-20221012042143-05388c11faae
-	k8s.io/controller-manager v0.0.0-20221012042036-e51bcebeebde
+	k8s.io/apimachinery v0.0.0-20221017194938-70a38aaa19ef
+	k8s.io/cloud-provider v0.0.0-20221017202722-39c368faaf45
+	k8s.io/controller-manager v0.0.0-20221017202605-8d536a638b41
 )
 
 require (
@@ -21,7 +21,7 @@ require (
 	golang.org/x/text v0.3.8 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282 // indirect
+	k8s.io/component-base v0.0.0-20221017200238-034e08cbfdfb // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
 	k8s.io/utils v0.0.0-20220922133306-665eaaec4324 // indirect
 	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
@@ -29,13 +29,13 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221012035047-0f8110492ea0
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221012034848-78d003cc9419
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221012040521-848d0394b365
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221012035333-e6d958c7a853
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221012042143-05388c11faae
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221012040034-5d2a88c65282
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221012040131-84134c499c34
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221012042036-e51bcebeebde
-	k8s.io/kms => k8s.io/kms v0.0.0-20221012040222-bf322548c086
+	k8s.io/api => k8s.io/api v0.0.0-20221012115127-0184bd884c5e
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221017194938-70a38aaa19ef
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221018001318-9768ba70d897
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20221017235941-b6d3c8d37640
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221017202722-39c368faaf45
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20221017200238-034e08cbfdfb
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221017200342-f55d4a0c1767
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221017202605-8d536a638b41
+	k8s.io/kms => k8s.io/kms v0.0.0-20221014080727-25ac69204108
 )
