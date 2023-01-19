@@ -5,9 +5,9 @@ module k8s.io/kube-controller-manager
 go 1.19
 
 require (
-	k8s.io/apimachinery v0.0.0-20221223020100-e4335f057a79
-	k8s.io/cloud-provider v0.0.0-20221223065730-61f912c67742
-	k8s.io/controller-manager v0.0.0-20221223065132-9be5ce129d6c
+	k8s.io/apimachinery v0.23.17-rc.0
+	k8s.io/cloud-provider v0.23.17-rc.0
+	k8s.io/controller-manager v0.23.17-rc.0
 )
 
 require (
@@ -23,7 +23,7 @@ require (
 	golang.org/x/text v0.5.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20221223033316-0498e33f1385 // indirect
+	k8s.io/component-base v0.23.17-rc.0 // indirect
 	k8s.io/klog/v2 v2.30.0 // indirect
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed // indirect
 	sigs.k8s.io/json v0.0.0-20211020170558-c049b76a60c6 // indirect
@@ -31,12 +31,12 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20221223022825-04d79f14928a
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20221223020100-e4335f057a79
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20221223041618-151313c296d4
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20221223025853-5468c97b2b39
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20221223065730-61f912c67742
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20221223033316-0498e33f1385
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20221223034502-7455edf3dc60
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20221223065132-9be5ce129d6c
+	k8s.io/api => k8s.io/api v0.23.17-rc.0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.23.17-rc.0
+	k8s.io/apiserver => k8s.io/apiserver v0.23.17-rc.0
+	k8s.io/client-go => k8s.io/client-go v0.23.17-rc.0
+	k8s.io/cloud-provider => k8s.io/cloud-provider v0.23.17-rc.0
+	k8s.io/component-base => k8s.io/component-base v0.23.17-rc.0
+	k8s.io/component-helpers => k8s.io/component-helpers v0.23.17-rc.0
+	k8s.io/controller-manager => k8s.io/controller-manager v0.23.17-rc.0
 )
