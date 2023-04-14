@@ -5,9 +5,9 @@ module k8s.io/kube-controller-manager
 go 1.20
 
 require (
-	k8s.io/apimachinery v0.0.0-20230413213732-71d667e55043
-	k8s.io/cloud-provider v0.0.0-20230413233339-ddae6b176c3b
-	k8s.io/controller-manager v0.0.0-20230413232910-8001027e2935
+	k8s.io/apimachinery v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/controller-manager v0.0.0
 )
 
 require (
@@ -19,12 +19,12 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/rogpeppe/go-internal v1.10.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/net v0.9.0 // indirect
+	golang.org/x/text v0.9.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20230413220226-c4f7b7e7a6ce // indirect
+	k8s.io/component-base v0.0.0 // indirect
 	k8s.io/klog/v2 v2.90.1 // indirect
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
@@ -32,13 +32,14 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20230413214513-e2bb673563f3
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230413213732-71d667e55043
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230413222757-d3fa9a05b8a6
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230413215200-4e89310f6ea6
-	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230413233339-ddae6b176c3b
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20230413220226-c4f7b7e7a6ce
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230413220824-d4bb62a6836a
-	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20230413232910-8001027e2935
-	k8s.io/kms => k8s.io/kms v0.0.0-20230413003758-a38ec9832062
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
+	k8s.io/kube-controller-manager => ../kube-controller-manager
 )
