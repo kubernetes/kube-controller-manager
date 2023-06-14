@@ -34,8 +34,8 @@ require (
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20230607181819-dc63998f1312
 	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20230607181606-6b1428efc733
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230607183517-ec6e78678678
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20230607182136-5a019202120a
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20230613171648-d76c5f864483
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20230612210841-92512ee2b8cf
 	k8s.io/cloud-provider => k8s.io/cloud-provider v0.0.0-20230607185531-31ac818a361b
 	k8s.io/component-base => k8s.io/component-base v0.0.0-20230607182916-74586d5a138f
 	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20230607183022-9345c9d59ffb
