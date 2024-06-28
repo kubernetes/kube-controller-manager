@@ -5,9 +5,9 @@ module k8s.io/kube-controller-manager
 go 1.22.0
 
 require (
-	k8s.io/apimachinery v0.0.0-20240627221929-1dfa5d9369be
-	k8s.io/cloud-provider v0.0.0-20240627230917-fa0efb6a51ee
-	k8s.io/controller-manager v0.0.0-20240627230732-b02d2e21e37c
+	k8s.io/apimachinery v0.0.0-20240628061934-adf72dd6c5c2
+	k8s.io/cloud-provider v0.0.0-20240628070938-2e650c135170
+	k8s.io/controller-manager v0.0.0-20240628070753-1ddf6a9986e2
 )
 
 require (
@@ -20,12 +20,12 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
+	golang.org/x/net v0.26.0 // indirect
+	golang.org/x/text v0.16.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20240627223522-ecc7c8d3530d // indirect
+	k8s.io/component-base v0.0.0-20240628063534-3b0f2cefb281 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
