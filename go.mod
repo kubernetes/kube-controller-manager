@@ -5,9 +5,9 @@ module k8s.io/kube-controller-manager
 go 1.20
 
 require (
-	k8s.io/apimachinery v0.0.0-20240404160804-ac31ee73e10f
-	k8s.io/cloud-provider v0.0.0-20240404172205-eee0683ea9b5
-	k8s.io/controller-manager v0.0.0-20240404171953-7ab462b82d73
+	k8s.io/apimachinery v0.27.16
+	k8s.io/cloud-provider v0.27.16
+	k8s.io/controller-manager v0.27.16
 )
 
 require (
@@ -24,7 +24,7 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20240404163424-55b3ab0db008 // indirect
+	k8s.io/component-base v0.27.16 // indirect
 	k8s.io/klog/v2 v2.90.1 // indirect
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
