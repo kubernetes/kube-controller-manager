@@ -6,8 +6,8 @@ go 1.22.0
 
 require (
 	k8s.io/apimachinery v0.0.0-20240827232741-2465dc5239ab
-	k8s.io/cloud-provider v0.0.0-20240828001631-97f6d0879fc1
-	k8s.io/controller-manager v0.0.0-20240828001457-a0c59656723e
+	k8s.io/cloud-provider v0.0.0-20240904200712-c6781c813562
+	k8s.io/controller-manager v0.0.0-20240904200540-445069bc8042
 )
 
 require (
