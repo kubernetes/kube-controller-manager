@@ -6,8 +6,8 @@ go 1.22.0
 
 require (
 	k8s.io/apimachinery v0.0.0-20240827232741-2465dc5239ab
-	k8s.io/cloud-provider v0.0.0-20240904200712-c6781c813562
-	k8s.io/controller-manager v0.0.0-20240904200540-445069bc8042
+	k8s.io/cloud-provider v0.0.0-20240906201006-a15c7ae74481
+	k8s.io/controller-manager v0.0.0-20240906200832-332ec59bd52b
 )
 
 require (
@@ -26,7 +26,7 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20240827234324-df69e0c454c0 // indirect
+	k8s.io/component-base v0.0.0-20240906193739-83f63c39727c // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
