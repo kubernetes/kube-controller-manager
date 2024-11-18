@@ -6,12 +6,10 @@ go 1.23.0
 
 godebug default=go1.23
 
-godebug winsymlink=0
-
 require (
-	k8s.io/apimachinery v0.0.0-20241212094400-146e532b5516
-	k8s.io/cloud-provider v0.0.0-20241212103302-d3b21a30a0eb
-	k8s.io/controller-manager v0.0.0-20241212103127-352690fce534
+	k8s.io/apimachinery v0.0.0
+	k8s.io/cloud-provider v0.0.0
+	k8s.io/controller-manager v0.0.0
 )
 
 require (
@@ -29,10 +27,22 @@ require (
 	golang.org/x/text v0.19.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	k8s.io/component-base v0.0.0-20241212095938-eed7cffe762b // indirect
+	k8s.io/component-base v0.0.0 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/utils v0.0.0-20241104100929-3ea5e8cea738 // indirect
 	sigs.k8s.io/json v0.0.0-20241010143419-9aa6b5e7a4b3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.2 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
+)
+
+replace (
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/cloud-provider => ../cloud-provider
+	k8s.io/component-base => ../component-base
+	k8s.io/component-helpers => ../component-helpers
+	k8s.io/controller-manager => ../controller-manager
+	k8s.io/kms => ../kms
 )
