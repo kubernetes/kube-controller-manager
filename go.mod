@@ -5,9 +5,9 @@ module k8s.io/kube-controller-manager
 go 1.22.0
 
 require (
-	k8s.io/apimachinery v0.0.0-20240720202316-95b78024e3fe
-	k8s.io/cloud-provider v0.0.0-20240801015342-ce7bef0d77fb
-	k8s.io/controller-manager v0.0.0-20240801015046-46c2290c5b2f
+	k8s.io/apimachinery v0.31.8
+	k8s.io/cloud-provider v0.31.8
+	k8s.io/controller-manager v0.31.8
 )
 
 require (
@@ -25,15 +25,9 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/component-base v0.0.0-20240725171331-763ac17e073e // indirect
+	k8s.io/component-base v0.31.8 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
-)
-
-replace (
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20240719190441-a8f449e276fe
-	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20240724012351-92ee9330ce6a
-	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20240801005738-7473aa8e4624
 )
