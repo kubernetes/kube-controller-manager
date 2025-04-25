@@ -8,8 +8,8 @@ godebug default=go1.24
 
 require (
 	k8s.io/apimachinery v0.0.0-20250423231524-954960919938
-	k8s.io/cloud-provider v0.0.0-20250425120204-ea9a2ed85215
-	k8s.io/controller-manager v0.0.0-20250425120030-a23f9e1ef09f
+	k8s.io/cloud-provider v0.0.0-20250425200505-b2843894dd41
+	k8s.io/controller-manager v0.0.0-20250425200317-3dd21441ac56
 )
 
 require (
