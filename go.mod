@@ -7,9 +7,9 @@ go 1.25.0
 godebug default=go1.25
 
 require (
-	k8s.io/apimachinery v0.0.0-20251218062152-a9de6f8b12f4
-	k8s.io/cloud-provider v0.0.0-20251218074516-659cdfadd9f3
-	k8s.io/controller-manager v0.0.0-20251218074229-555b78075476
+	k8s.io/apimachinery v0.0.0-20251218062153-94056eccfb12
+	k8s.io/cloud-provider v0.0.0-20251218151506-7ce071769eb2
+	k8s.io/controller-manager v0.0.0-20251218151318-1b939266cd57
 )
 
 require (
