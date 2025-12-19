@@ -7,9 +7,9 @@ go 1.25.0
 godebug default=go1.25
 
 require (
-	k8s.io/apimachinery v0.0.0-20251219182209-f4aa7a78c194
-	k8s.io/cloud-provider v0.0.0-20251219191716-20ee39114f53
-	k8s.io/controller-manager v0.0.0-20251219191521-102e17f0ed2a
+	k8s.io/apimachinery v0.0.0-20251219182210-41f756ddfded
+	k8s.io/cloud-provider v0.0.0-20251219191717-f9be56081534
+	k8s.io/controller-manager v0.0.0-20251219191522-d2c0e1f31856
 )
 
 require (
@@ -25,7 +25,7 @@ require (
 	golang.org/x/text v0.31.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	k8s.io/component-base v0.0.0-20251219184033-bb6314076150 // indirect
+	k8s.io/component-base v0.0.0-20251219184035-4ce954c841ad // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
 	k8s.io/utils v0.0.0-20251219084037-98d557b7f1e7 // indirect
