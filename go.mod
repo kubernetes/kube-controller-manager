@@ -8,7 +8,7 @@ godebug default=go1.26
 
 require (
 	k8s.io/apimachinery v0.0.0
-	k8s.io/cloud-provider v0.0.0
+	k8s.io/cloud-provider v0.0.0-20260313115336-b76456f03879
 	k8s.io/controller-manager v0.0.0
 )
 
@@ -35,14 +35,13 @@ require (
 )
 
 replace (
-	k8s.io/api => ../api
-	k8s.io/apimachinery => ../apimachinery
-	k8s.io/apiserver => ../apiserver
-	k8s.io/client-go => ../client-go
-	k8s.io/cloud-provider => ../cloud-provider
-	k8s.io/component-base => ../component-base
-	k8s.io/component-helpers => ../component-helpers
-	k8s.io/controller-manager => ../controller-manager
-	k8s.io/kms => ../kms
-	k8s.io/streaming => ../streaming
+	k8s.io/api => k8s.io/api v0.0.0-20260317073624-369111fb8de0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20260317071512-f00b254e34da
+	k8s.io/apiserver => k8s.io/apiserver v0.0.0-20260317093807-b91cf16c1319
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20260317075959-9dc763689d1a
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20260313115336-089d54029606
+	k8s.io/component-helpers => k8s.io/component-helpers v0.0.0-20260313115336-7bbdfdab85fe
+	k8s.io/controller-manager => k8s.io/controller-manager v0.0.0-20260317130945-78e2e0a488e3
+	k8s.io/kms => k8s.io/kms v0.0.0-20260306083908-2d26e8225029
+	k8s.io/streaming => k8s.io/streaming v0.0.0-20260317070603-951b6bf67777
 )
