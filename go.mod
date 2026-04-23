@@ -7,9 +7,9 @@ go 1.26.0
 godebug default=go1.26
 
 require (
-	k8s.io/apimachinery v0.0.0-20260423021553-a31c3dcb1f8b
-	k8s.io/cloud-provider v0.0.0-20260423214536-d2ee28da4351
-	k8s.io/controller-manager v0.0.0-20260423213907-c358e39f520c
+	k8s.io/apimachinery v0.0.0-20260423181704-58aed62c0dac
+	k8s.io/cloud-provider v0.0.0-20260423214538-c9b6a75938df
+	k8s.io/controller-manager v0.0.0-20260423213909-d954815e457c
 )
 
 require (
@@ -21,11 +21,11 @@ require (
 	github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
-	golang.org/x/net v0.49.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
+	golang.org/x/net v0.52.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	k8s.io/component-base v0.0.0-20260423023547-92e5a83b5564 // indirect
+	k8s.io/component-base v0.0.0-20260423192239-ab0e392b6dbf // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a // indirect
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2 // indirect
