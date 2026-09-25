@@ -7,20 +7,20 @@ go 1.27.0
 godebug default=go1.27
 
 require (
-	k8s.io/apimachinery v0.0.0-20260925215313-7ec3fc242346
-	k8s.io/cloud-provider v0.0.0-20260925231213-fbec2da314b4
-	k8s.io/controller-manager v0.0.0-20260925230941-1227913da889
+	k8s.io/apimachinery v0.0.0-20260925215314-8a0dc0f99314
+	k8s.io/cloud-provider v0.0.0-20260925231215-f8a41fe94321
+	k8s.io/controller-manager v0.0.0-20260925230943-1808567e31df
 )
 
 require (
 	github.com/fxamacker/cbor/v2 v2.9.4 // indirect
-	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	golang.org/x/net v0.59.0 // indirect
 	golang.org/x/text v0.42.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	k8s.io/component-base v0.0.0-20260925221805-1f0dc2d55938 // indirect
+	k8s.io/component-base v0.0.0-20260925221810-cd02325dcddd // indirect
 	k8s.io/klog/v2 v2.140.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20260908163437-c4db2bdfbfe6 // indirect
 	k8s.io/utils v0.0.0-20260626114624-be93311217bd // indirect
